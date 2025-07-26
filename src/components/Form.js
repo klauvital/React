@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../index.css";
 
 function Form() {
   function cadastrarUsuario(e) {
@@ -10,9 +11,10 @@ function Form() {
   const [password, setPassword] = useState();
 
   return (
-    <div>
+    <div class="espacoForm">
+      Cadastrar Usuário
       <form onSubmit={cadastrarUsuario}>
-        <div>
+        <div class="espacoForm">
           <label htmlFor="name">Nome:</label>
           <input
             type="text"
@@ -32,7 +34,7 @@ function Form() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <div>
+        <div class="espacoForm">
           <input type="submit" value="Cadastrar" />
         </div>
       </form>

@@ -1,10 +1,11 @@
 import Item from "./Item";
+import "../index.css";
 
 function ListCarros() {
   return (
     <>
       <h4> Meus veiculos</h4>
-      <ul>
+      <ul class="lista">
         <Item marca="Chevrolet" modelo="Chevet" ano_lancamento={1978} />
         <Item marca="Ford" modelo="Escort XR3" ano_lancamento={1985} />
         <Item marca="Chevrolet" modelo="Kadete" ano_lancamento={1994} />

@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "./index.css";
 import Pessoa from "./components/Pessoa";
 import Frase from "./components/Frase";
 import ListCarros from "./components/ListCarros";
@@ -17,6 +18,7 @@ function App() {
         profissao="Desenvolvedora de sistemas"
         foto="..\images\eu_face.jpg"
       />
+      <Evento />
 
       <Form />
       <ListCarros />

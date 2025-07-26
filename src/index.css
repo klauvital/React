@@ -1,4 +1,18 @@
 body {
-  padding: 50px;
-  background-color: darkgray;
+  padding: 0px;
+  background-color: darkgray;  
+  border-radius: 2%;
+  border: 3px solid #654548;
+  align-items: center;
+}
+
+.espacoForm{
+  margin-top: 10px;
+  margin-bottom: 10px;    
+  background-color: #654548;
+  color: #fff;
+  font-size: 12px;
+}
+.lista{
+  list-style: none;
 }
