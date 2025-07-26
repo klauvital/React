@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.Guia rápido de React JS.pdf
+.gitignore
+.gitattributes
